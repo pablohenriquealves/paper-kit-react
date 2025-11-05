@@ -24,11 +24,11 @@ import {
   Button,
   Collapse,
   NavbarBrand,
-  Navbar,
+  Nav,
   NavItem,
   NavLink,
-  Nav,
   Container,
+  Navbar,
 } from "reactstrap";
 
 function IndexNavbar() {

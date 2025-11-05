@@ -26,13 +26,11 @@ import {
   Label,
   FormGroup,
   Input,
-  InputGroupAddon,
   InputGroupText,
   InputGroup,
   Container,
   Row,
   Col,
-  CustomInput,
 } from "reactstrap";
 
 function SectionButtons() {
@@ -328,11 +326,9 @@ function SectionButtons() {
             <Col sm="3">
               <InputGroup>
                 <Input placeholder="Username" type="text" />
-                <InputGroupAddon addonType="append">
-                  <InputGroupText>
-                    <i aria-hidden={true} className="fa fa-group" />
-                  </InputGroupText>
-                </InputGroupAddon>
+                <InputGroupText>
+                  <i aria-hidden={true} className="fa fa-group" />
+                </InputGroupText>
               </InputGroup>
             </Col>
           </Row>
@@ -430,20 +426,34 @@ function SectionButtons() {
                 <h3>Toggle Buttons</h3>
               </div>
               <div id="switches">
-                <CustomInput
-                  type="switch"
-                  id="exampleCustomSwitch1"
-                  name="customSwitch1"
-                  defaultChecked
-                  label="Default On"
-                />
+                <div className="form-check form-switch">
+                  <Input
+                    type="checkbox"
+                    id="exampleCustomSwitch1"
+                    defaultChecked
+                    className="form-check-input"
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="exampleCustomSwitch1"
+                  >
+                    Default On
+                  </label>
+                </div>
                 <br />
-                <CustomInput
-                  type="switch"
-                  id="exampleCustomSwitch2"
-                  name="customSwitch2"
-                  label="Default Off"
-                />
+                <div className="form-check form-switch">
+                  <Input
+                    type="checkbox"
+                    id="exampleCustomSwitch2"
+                    className="form-check-input"
+                  />
+                  <label
+                    className="form-check-label"
+                    htmlFor="exampleCustomSwitch2"
+                  >
+                    Default Off
+                  </label>
+                </div>
               </div>
             </Col>
             <Col lg="3" sm="6">
