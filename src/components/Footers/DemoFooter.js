@@ -53,6 +53,14 @@ function DemoFooter() {
                   Licenses
                 </a>
               </li>
+              <li>
+                <a
+                  href="http://localhost:3000/landing-pablo"
+                  target="_blank"
+                >
+                  Landing Pablo
+                </a>
+              </li>
             </ul>
           </nav>
           <div className="credits ml-auto">

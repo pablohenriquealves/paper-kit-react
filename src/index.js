@@ -30,6 +30,7 @@ import NucleoIcons from "views/NucleoIcons.js";
 import LandingPage from "views/examples/LandingPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
+import LandingPablo from "views/examples/LandingPablo.js";
 // others
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -43,6 +44,7 @@ root.render(
       <Route path="/profile-page" element={<ProfilePage />} />
       <Route path="/register-page" element={<RegisterPage />} />
       <Route path="*" element={<Navigate to="/index" replace />} />
+      <Route path="/landing-pablo" element={<LandingPablo />} />
     </Routes>
   </BrowserRouter>
 );
