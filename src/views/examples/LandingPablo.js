@@ -17,7 +17,7 @@ import {
 
 import DemoFooter from "components/Footers/DemoFooter";
 import ExamplesNavBar from "components/Navbars/ExamplesNavbar";
-import LandingPageHeader from "components/Headers/LandingPageHeader";
+import LandingPabloHeader from "components/Headers/LandingPabloHeader";
 
 function LandingPablo() {
   document.documentElement.classList.remove("nav-open");
@@ -30,7 +30,7 @@ function LandingPablo() {
   return (
     <>
       <ExamplesNavBar />
-      <LandingPageHeader />
+      <LandingPabloHeader />
       <div className="main">
         <div className="section text-center">
           <Container>
@@ -65,9 +65,13 @@ function LandingPablo() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Linda Galeria</h4>
-                    <p>Spend your time generating new ideas. You don't have to think of implementing.
+                    <p>
+                      Spend your time generating new ideas. You don't have to
+                      think of implementing.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">Ver mais</Button>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Ver mais
+                    </Button>
                   </div>
                 </div>
               </Col>
@@ -79,9 +83,12 @@ function LandingPablo() {
                   <div className="description">
                     <h4 className="info-title">Novas Ideias</h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but remarkably power efficient.
+                      Larger, yet dramatically thinner. More powerful, but
+                      remarkably power efficient.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">Ver mais</Button>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Ver mais
+                    </Button>
                   </div>
                 </div>
               </Col>
@@ -91,11 +98,14 @@ function LandingPablo() {
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Estatisticas</h4>
+                    <h4 className="info-title">Estatísticas</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar paper pastels.
+                      Choose from a veriety of many colors resembling sugar
+                      paper pastels.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">Ver mais</Button>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Ver mais
+                    </Button>
                   </div>
                 </div>
               </Col>
@@ -111,9 +121,114 @@ function LandingPablo() {
                       Find unique and handmade delightful designs related items
                       directly from our sellers.
                     </p>
-                    <Button className="btn-link" color="info" href="#pablo">Ver mais</Button>
+                    <Button className="btn-link" color="info" href="#pablo">
+                      Ver mais
+                    </Button>
                   </div>
                 </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section section-dark text-center">
+          <Container>
+            <h2>Sobre mim</h2>
+            <Row>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/default-avatar.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Pablo Henrique</CardTitle>
+                        <h6 className="card-category">Product Owner</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Teamwork is so important that it is virtually impossible
+                      for you to reach the heights of your capabilities or make
+                      the money that you want without becoming very good at it.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fa fa-twitter"/>
+                    </Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/default-avatar.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Pablo Henrique</CardTitle>
+                        <h6 className="card-category">Product Owner</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Teamwork is so important that it is virtually impossible
+                      for you to reach the heights of your capabilities or make
+                      the money that you want without becoming very good at it.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fa fa-twitter"/>
+                    </Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                  </CardFooter>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-profile card-plain">
+                  <div className="card-avatar">
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <img
+                        alt="..."
+                        src={require("assets/img/default-avatar.png")}
+                      />
+                    </a>
+                  </div>
+                  <CardBody>
+                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <div className="author">
+                        <CardTitle tag="h4">Pablo Henrique</CardTitle>
+                        <h6 className="card-category">Product Owner</h6>
+                      </div>
+                    </a>
+                    <p className="card-description text-center">
+                      Teamwork is so important that it is virtually impossible
+                      for you to reach the heights of your capabilities or make
+                      the money that you want without becoming very good at it.
+                    </p>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fa fa-twitter"/>
+                    </Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
+                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                  </CardFooter>
+                </Card>
               </Col>
             </Row>
           </Container>
