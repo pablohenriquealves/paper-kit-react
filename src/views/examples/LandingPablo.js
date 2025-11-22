@@ -158,11 +158,31 @@ function LandingPablo() {
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fa fa-twitter"/>
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
                     </Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      {" "}
+                      <i className="fa fa-linkedin" />
+                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
@@ -190,11 +210,31 @@ function LandingPablo() {
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fa fa-twitter"/>
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
                     </Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      {" "}
+                      <i className="fa fa-linkedin" />
+                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
@@ -222,16 +262,84 @@ function LandingPablo() {
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button className="btn-just-icon btn-neutral" color="link" href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fa fa-twitter"/>
+                    <Button
+                      className="btn-just-icon btn-neutral"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-twitter" />
                     </Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}><i className="fa fa-google-plus"/></Button>
-                    <Button className="btn-just-icon btn-neutral ml-1" color="link" href="#pablo" onClick={(e) => e.preventDefault()}> <i className="fa fa-linkedin"/></Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fa fa-google-plus" />
+                    </Button>
+                    <Button
+                      className="btn-just-icon btn-neutral ml-1"
+                      color="link"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      {" "}
+                      <i className="fa fa-linkedin" />
+                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
             </Row>
           </Container>
+        </div>
+        <div>
+          <div className="section landing-section">
+            <Container>
+              <Row>
+                <Col className="ml-auto mr-auto" md="8">
+                  <h2 className="text-center">Vamos manter contato?</h2>
+                  <Form className="contact-form">
+                    <Row>
+                      <Col md="6">
+                        <label>Nome</label>
+                        <InputGroup>
+                          <InputGroupText>
+                            <i className="nc-icon nc-single-02" />
+                          </InputGroupText>
+                          <Input placeholder="Digite seu nome" type="text" />
+                        </InputGroup>
+                      </Col>
+                      <Col>
+                        <label>E-mail</label>
+                        <InputGroup>
+                          <InputGroupText>
+                            <i className="nc-icon nc-email-85" />
+                          </InputGroupText>
+                          <Input placeholder="Digite seu e-mail" type="email" />
+                        </InputGroup>
+                      </Col>
+                    </Row>
+
+                    <label>Mensagem</label>
+                    <Input
+                      placeholder="Nos conte o que está pensando"
+                      type="textarea"
+                      rows="4"
+                    />
+
+                    <Row>
+                      <Col className="ml-auto mr-auto" md="6">
+                        <Button className="btn-fill" color="danger" size="lg">
+                          Enviar Mensagem
+                        </Button>
+                      </Col>
+                    </Row>
+                  </Form>
+                </Col>
+              </Row>
+            </Container>
+          </div>
         </div>
       </div>
       <DemoFooter />
